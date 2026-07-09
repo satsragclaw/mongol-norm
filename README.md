@@ -169,7 +169,7 @@ print(f"{len(words)} inputs → {len(unique)} unique form(s): {unique}")
 
 #### Command line
 
-After `pip install mongol-norm`, the `mongol-norm` command is on `PATH` (or run `python -m mongol_norm.shaper ...` without installing).
+After `pip install mongol-norm`, the `mongol-norm` command is on `PATH` (or run `python -m mongol_norm ...` without installing).
 
 ```bash
 # Inline text
@@ -452,7 +452,7 @@ print(f"{len(words)} 个输入 → {len(unique)} 个唯一形态：{unique}")
 
 #### 命令行
 
-`pip install mongol-norm` 之后,`mongol-norm` 命令即在 `PATH` 上(不安装也可用 `python -m mongol_norm.shaper ...`)。
+`pip install mongol-norm` 之后,`mongol-norm` 命令即在 `PATH` 上(不安装也可用 `python -m mongol_norm ...`)。
 
 ```bash
 # 直接传文本

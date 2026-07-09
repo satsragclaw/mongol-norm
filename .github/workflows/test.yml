@@ -2,8 +2,8 @@ name: Test
 
 # Repo layout: a single self-contained package, mongol-norm/. The shaping +
 # normalize JSON is bundled in mongol_norm/data/ (no separate data package,
-# no runtime dependency). CI installs it locally (no PyPI yet) and runs the
-# test suite, which covers all shaping logic, the normalize round-trip /
+# no runtime dependency). CI installs it locally from the checkout and runs
+# the test suite, which covers all shaping logic, the normalize round-trip /
 # canonicity / prefix-stability properties, the normalize-table export, and
 # the mongfontbuilder core-hud / eac-hud TSV regression sets.
 
